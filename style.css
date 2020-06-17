@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(195, 75, 199);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.heading {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+}
