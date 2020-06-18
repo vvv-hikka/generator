@@ -34,7 +34,7 @@ healthValue = randElement(health);
 healthSelector.textContent = 'Состояние здоровья: ' + healthValue;
 
 let healthLevel = ["скрытая стадия", "20%", "40%", "60%", "80%", "100%"];
-if ((healthValue == "слепота") || (healthValue == "грипп") || (healthValue == "шизофрения") || (healthValue == "туберкулёз") || (healthValue == "наркоман") || (healthValue == "остеохондроз") || (healthValue == "алкоголизм") || (healthValue == "коронавирус") || (healthValue == "сахарный диабет") || (healthValue = "плоскостопие")) {
+if ((healthValue == "слепота") || (healthValue == "грипп") || (healthValue == "шизофрения") || (healthValue == "туберкулёз") || (healthValue == "наркоман") || (healthValue == "остеохондроз") || (healthValue == "алкоголизм") || (healthValue == "коронавирус") || (healthValue == "сахарный диабет") || (healthValue == "плоскостопие")) {
     healthLevelSelector.textContent = "Тяжесть болезни: " + randElement(healthLevel)
 } else {
     healthLevelSelector.textContent = "Тяжесть болезни: —"
